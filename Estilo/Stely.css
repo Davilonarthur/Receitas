@@ -56,10 +56,19 @@ nav {
     position: absolute;
     top: 8vh;
     right: 0px;
-    width: 25vw;
+    width: 40vw;
     height: 92vh;
     background-color: rgb(162, 190, 245);
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Links_List {
+    right: 0px;
+  }
+  .MenuIcon {
+    display: block;
+    margin-right: 70px;
   }
 }
 .FundoImg_top {
