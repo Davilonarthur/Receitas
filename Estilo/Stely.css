@@ -1,1 +1,92 @@
-/*# sourceMappingURL=Stely.css.map */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Geist+Mono:wght@100..900&family=Gowun+Batang:wght@400;700&family=Libre+Baskerville:ital@1&family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(162, 190, 245);
+  height: 8vh;
+  padding-inline: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav_list {
+  display: flex;
+  margin-top: 2vh;
+  gap: 3.5vh;
+}
+.Nav_list .Links_List {
+  list-style: none;
+}
+.Nav_list .Links_List a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.75vh;
+  font-size: 2.5vh;
+}
+
+.Logo {
+  margin-top: 10px;
+}
+.Logo img {
+  width: 5vh;
+}
+
+.MenuIcon {
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+
+.MenuIcon div {
+  height: 5px;
+  margin-top: 5px;
+  background-color: beige;
+}
+
+@media (max-width: 700px) {
+  .Nav_list {
+    position: absolute;
+    top: 8vh;
+    right: 0px;
+    width: 25vw;
+    height: 92vh;
+    background-color: rgb(162, 190, 245);
+    flex-direction: column;
+  }
+}
+.FundoImg_top {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.FundoImg_top::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: url(../img/Imagem\ cozinha.jpeg) no-repeat center center;
+  background-size: 100% 100%;
+  filter: brightness(50%);
+}
+
+.TextoDeImagemdofundo {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: white;
+  position: absolute;
+  letter-spacing: 10px;
+}/*# sourceMappingURL=Stely.css.map */
