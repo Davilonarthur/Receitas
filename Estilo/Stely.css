@@ -54,14 +54,15 @@ nav {
 @media (max-width: 700px) {
   .Nav_list {
     position: absolute;
-    top: 8vh;
+    top: 5.9vh;
     right: 0px;
-    width: 40vw;
+    width: 35vw;
     height: 92vh;
     background-color: rgb(162, 190, 245);
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    z-index: 20;
   }
   .Links_List {
     right: 0px;

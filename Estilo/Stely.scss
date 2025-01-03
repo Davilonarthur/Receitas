@@ -54,14 +54,16 @@ nav{
 @media (max-width: 700px) {
     .Nav_list{
         position: absolute;
-        top: 8vh;
+        top: 5.90vh;
         right: 0px;
-        width: 40vw;
+        width: 35vw;
         height: 92vh;
         background-color: rgb(162, 190, 245);
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        //Responsável por organizar o empilhamento dos elementos ⇣
+        z-index: 20;
 
 
     }
@@ -74,7 +76,7 @@ nav{
     }
 }
 
-//Imagem Debaixo da Reder 
+//Imagem Debaixo da header
 .FundoImg_top{
     height: 30vh;
     display: flex;
